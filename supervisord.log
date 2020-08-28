@@ -606,3 +606,126 @@
 2020-08-28 00:15:39,353 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2020-08-28 00:15:39,355 INFO spawned: 'image-worker_01' with pid 1413
 2020-08-28 00:15:40,357 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:15:42,606 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:15:43,594 INFO spawned: 'image-worker_00' with pid 1420
+2020-08-28 00:15:43,605 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:15:44,606 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:15:44,608 INFO spawned: 'image-worker_01' with pid 1427
+2020-08-28 00:15:45,610 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:15:47,879 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:15:48,848 INFO spawned: 'image-worker_00' with pid 1434
+2020-08-28 00:15:48,860 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:15:49,861 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:15:49,863 INFO spawned: 'image-worker_01' with pid 1441
+2020-08-28 00:15:50,864 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:15:53,083 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:15:54,087 INFO spawned: 'image-worker_00' with pid 1448
+2020-08-28 00:15:54,115 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:15:55,116 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:15:55,118 INFO spawned: 'image-worker_01' with pid 1455
+2020-08-28 00:15:56,119 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:15:58,343 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:15:59,346 INFO spawned: 'image-worker_00' with pid 1462
+2020-08-28 00:15:59,358 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:16:00,359 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:00,360 INFO spawned: 'image-worker_01' with pid 1469
+2020-08-28 00:16:01,362 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:03,603 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:16:04,583 INFO spawned: 'image-worker_00' with pid 1476
+2020-08-28 00:16:04,594 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:16:05,505 INFO spawned: 'image-worker_01' with pid 1483
+2020-08-28 00:16:06,507 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:06,507 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:08,824 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:16:09,785 INFO spawned: 'image-worker_00' with pid 1491
+2020-08-28 00:16:09,795 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:16:10,795 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:10,799 INFO spawned: 'image-worker_01' with pid 1498
+2020-08-28 00:16:11,800 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:14,043 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:16:15,031 INFO spawned: 'image-worker_00' with pid 1505
+2020-08-28 00:16:15,037 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:16:16,039 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:16,041 INFO spawned: 'image-worker_01' with pid 1512
+2020-08-28 00:16:17,043 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:19,307 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:16:20,289 INFO spawned: 'image-worker_00' with pid 1519
+2020-08-28 00:16:20,298 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:16:21,299 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:21,300 INFO spawned: 'image-worker_01' with pid 1526
+2020-08-28 00:16:22,302 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:24,537 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:16:25,540 INFO spawned: 'image-worker_00' with pid 1533
+2020-08-28 00:16:25,589 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:16:26,590 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:26,592 INFO spawned: 'image-worker_01' with pid 1540
+2020-08-28 00:16:27,593 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:29,795 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:16:30,798 INFO spawned: 'image-worker_00' with pid 1547
+2020-08-28 00:16:30,828 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:16:31,833 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:31,834 INFO spawned: 'image-worker_01' with pid 1554
+2020-08-28 00:16:32,835 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:35,091 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:16:36,094 INFO spawned: 'image-worker_00' with pid 1561
+2020-08-28 00:16:36,107 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:16:37,108 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:37,109 INFO spawned: 'image-worker_01' with pid 1568
+2020-08-28 00:16:38,111 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:40,349 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:16:41,352 INFO spawned: 'image-worker_00' with pid 1575
+2020-08-28 00:16:41,384 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:16:42,388 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:42,390 INFO spawned: 'image-worker_01' with pid 1582
+2020-08-28 00:16:43,391 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:45,612 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:16:46,615 INFO spawned: 'image-worker_00' with pid 1589
+2020-08-28 00:16:46,637 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:16:47,639 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:47,640 INFO spawned: 'image-worker_01' with pid 1596
+2020-08-28 00:16:48,642 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:50,895 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:16:51,897 INFO spawned: 'image-worker_00' with pid 1603
+2020-08-28 00:16:51,915 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:16:52,916 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:52,919 INFO spawned: 'image-worker_01' with pid 1610
+2020-08-28 00:16:53,921 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:56,157 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:16:57,159 INFO spawned: 'image-worker_00' with pid 1617
+2020-08-28 00:16:57,180 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:16:58,182 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:16:58,184 INFO spawned: 'image-worker_01' with pid 1624
+2020-08-28 00:16:59,185 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:17:01,415 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:17:02,418 INFO spawned: 'image-worker_00' with pid 1631
+2020-08-28 00:17:02,459 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:17:03,462 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:17:03,464 INFO spawned: 'image-worker_01' with pid 1638
+2020-08-28 00:17:04,464 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:17:06,679 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:17:07,684 INFO spawned: 'image-worker_00' with pid 1645
+2020-08-28 00:17:07,729 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:17:08,731 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:17:08,733 INFO spawned: 'image-worker_01' with pid 1652
+2020-08-28 00:17:09,734 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:17:11,928 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:17:12,930 INFO spawned: 'image-worker_00' with pid 1659
+2020-08-28 00:17:13,035 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:17:14,037 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:17:14,039 INFO spawned: 'image-worker_01' with pid 1666
+2020-08-28 00:17:15,041 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:17:17,199 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:17:18,203 INFO spawned: 'image-worker_00' with pid 1673
+2020-08-28 00:17:18,285 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:17:19,286 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:17:19,288 INFO spawned: 'image-worker_01' with pid 1680
+2020-08-28 00:17:20,290 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:17:22,496 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:17:23,499 INFO spawned: 'image-worker_00' with pid 1687
+2020-08-28 00:17:23,546 INFO exited: image-worker_01 (exit status 0; expected)
+2020-08-28 00:17:24,547 INFO success: image-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:17:24,550 INFO spawned: 'image-worker_01' with pid 1694
+2020-08-28 00:17:25,553 INFO success: image-worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-08-28 00:17:27,742 INFO exited: image-worker_00 (exit status 0; expected)
+2020-08-28 00:17:28,744 INFO spawned: 'image-worker_00' with pid 1701
+2020-08-28 00:17:28,805 INFO exited: image-worker_01 (exit status 0; expected)
