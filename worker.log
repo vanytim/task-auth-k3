@@ -46,3 +46,183 @@ Could not open input file: /var/www/test-task-auth-k3/artisan
       [2m+4 vendor frames [22m
   8   app/Providers/RouteServiceProvider.php:63
       Illuminate\Routing\RouteRegistrar::group("/var/www/test-task-auth-k3/routes/web.php")
+
+   ParseError 
+
+  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'
+
+  at app/Http/Controllers/UserRegistrationLog.php:18
+    14|      */
+    15|     public function __invoke()
+    16|     {
+    17|         $
+  > 18|     }
+    19| }
+    20|
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Composer\Autoload\ClassLoader::loadClass("App\Http\Controllers\UserRegistrationLog")
+
+  3   [internal]:0
+      spl_autoload_call("App\Http\Controllers\UserRegistrationLog")
+
+   ParseError 
+
+  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'
+
+  at app/Http/Controllers/UserRegistrationLog.php:18
+    14|      */
+    15|     public function __invoke()
+    16|     {
+    17|         $
+  > 18|     }
+    19| }
+    20|
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Composer\Autoload\ClassLoader::loadClass("App\Http\Controllers\UserRegistrationLog")
+
+  3   [internal]:0
+      spl_autoload_call("App\Http\Controllers\UserRegistrationLog")
+
+   ParseError 
+
+  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'
+
+  at app/Http/Controllers/UserRegistrationLog.php:18
+    14|      */
+    15|     public function __invoke()
+    16|     {
+    17|         $
+  > 18|     }
+    19| }
+    20|
+
+   ParseError 
+
+  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'
+
+  at app/Http/Controllers/UserRegistrationLog.php:18
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Composer\Autoload\ClassLoader::loadClass("App\Http\Controllers\UserRegistrationLog")
+
+  3   [internal]:0
+    14|      */
+    15|     public function __invoke()
+    16|     {
+    17|         $
+  > 18|     }
+    19| }
+    20|
+      spl_autoload_call("App\Http\Controllers\UserRegistrationLog")
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Composer\Autoload\ClassLoader::loadClass("App\Http\Controllers\UserRegistrationLog")
+
+  3   [internal]:0
+      spl_autoload_call("App\Http\Controllers\UserRegistrationLog")
+
+   ParseError 
+
+  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'
+
+  at app/Http/Controllers/UserRegistrationLog.php:18
+    14|      */
+    15|     public function __invoke()
+    16|     {
+    17|         $
+  > 18|     }
+    19| }
+    20|
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Composer\Autoload\ClassLoader::loadClass("App\Http\Controllers\UserRegistrationLog")
+
+  3   [internal]:0
+      spl_autoload_call("App\Http\Controllers\UserRegistrationLog")
+
+   ParseError 
+
+  syntax error, unexpected '}'
+
+  at app/Http/Controllers/UserRegistrationLog.php:18
+    14|      */
+    15|     public function __invoke()
+    16|     {
+    17|         $regis
+  > 18|     }
+    19| }
+    20|
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Composer\Autoload\ClassLoader::loadClass("App\Http\Controllers\UserRegistrationLog")
+
+  3   [internal]:0
+      spl_autoload_call("App\Http\Controllers\UserRegistrationLog")
+
+   ParseError 
+
+  syntax error, unexpected '}'
+
+  at app/Http/Controllers/UserRegistrationLog.php:18
+    14|      */
+    15|     public function __invoke()
+    16|     {
+    17|         $regis
+  > 18|     }
+    19| }
+    20|
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Composer\Autoload\ClassLoader::loadClass("App\Http\Controllers\UserRegistrationLog")
+
+  3   [internal]:0
+      spl_autoload_call("App\Http\Controllers\UserRegistrationLog")
+
+   ParseError 
+
+  syntax error, unexpected '}'
+
+  at app/Http/Controllers/UserRegistrationLog.php:18
+    14|      */
+    15|     public function __invoke()
+    16|     {
+    17|         $registred
+  > 18|     }
+    19| }
+    20|
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Composer\Autoload\ClassLoader::loadClass("App\Http\Controllers\UserRegistrationLog")
+
+  3   [internal]:0
+      spl_autoload_call("App\Http\Controllers\UserRegistrationLog")
+
+   ParseError 
+
+  syntax error, unexpected '}'
+
+  at app/Http/Controllers/UserRegistrationLog.php:18
+    14|      */
+    15|     public function __invoke()
+    16|     {
+    17|         $registred = 
+  > 18|     }
+    19| }
+    20|
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Composer\Autoload\ClassLoader::loadClass("App\Http\Controllers\UserRegistrationLog")
+
+  3   [internal]:0
+      spl_autoload_call("App\Http\Controllers\UserRegistrationLog")
