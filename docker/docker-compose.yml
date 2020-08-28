@@ -1,0 +1,79 @@
+version: "3.3"
+volumes:
+    data-volume: {}
+services:
+    nginx-k3:
+        build:
+            context: .
+            args:
+              NGINX_WORK_DIR: ${NGINX_WORK_DIR}
+            dockerfile: Nginx/Dockerfile
+        restart: always
+        ports:
+            - 8096:80
+        links:
+            - fpm-k3
+        volumes: 
+            - ../:${NGINX_WORK_DIR}
+        networks:
+            - internal
+    fpm-k3:
+        build:
+            context: .
+            args:
+              NGINX_WORK_DIR: ${NGINX_WORK_DIR}
+              UID: 1000
+              GID: 1000
+            dockerfile: PHP/Dockerfile
+        container_name: ${fpm_lable}
+        volumes:
+            - ../:${NGINX_WORK_DIR}
+        environment:
+            PHP_EXTENSION_XDEBUG: 1
+            XDEBUG_CONFIG: "remote_host=192.168.220.1 remote_enable=1"
+        links:
+            - mysqlk3
+            - redis-k3
+            - maildev
+        tty: true
+        networks:
+          - internal
+    mysqlk3:
+        image: mysql:5.7
+        restart: always
+        ports:
+            - 33068:3306
+        container_name: test-task-k3-db
+        environment:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: testtaskk3
+          MYSQL_USER: testtaskk3
+          MYSQL_PASSWORD: testtaskk3
+        volumes:
+            - ./init:/docker-entrypoint-initdb.d
+        networks:
+            - internal
+    redis-k3:
+        image: redis:6.0.6
+        ports:
+            - 6379:6379
+        environment:
+            - REDIS_REPLICATION_MODE=master
+        networks:
+            - internal
+    maildev:
+        image: djfarrelly/maildev
+        ports:
+            - "1080:80"
+            - "1025:25"
+        links:
+            - mysqlk3
+        networks: 
+            - internal
+networks:
+  internal:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.220.0/28
