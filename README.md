@@ -19,3 +19,7 @@
 - docker
 - resources/views
 - route/web.php
+
+Ссылки:
+http://localhost:8096/ - основная ссылка на проект
+http://localhost:1080/ - ссылка для подтверждения Email - адресса
