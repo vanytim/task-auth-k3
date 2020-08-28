@@ -4,3 +4,45 @@ Could not open input file: /var/www/test-task-auth-k3/artisan
 Could not open input file: /var/www/test-task-auth-k3/artisan
 Could not open input file: /var/www/test-task-auth-k3/artisan
 Could not open input file: /var/www/test-task-auth-k3/artisan
+
+   ParseError 
+
+  syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+
+  at routes/web.php:22
+    18| });
+    19| 
+    20| Auth::routes(['verify' => true]);
+    21| 
+  > 22| Route::get('/home', 'HomeController@index')->name('home')->;
+    23|
+
+      [2m+3 vendor frames [22m
+  4   app/Providers/RouteServiceProvider.php:63
+      Illuminate\Routing\RouteRegistrar::group("/var/www/test-task-auth-k3/routes/web.php")
+
+  5   app/Providers/RouteServiceProvider.php:47
+      App\Providers\RouteServiceProvider::mapWebRoutes()
+
+   LogicException 
+
+  Route is not bound.
+
+  at vendor/laravel/framework/src/Illuminate/Routing/Route.php:424
+    420|         if (isset($this->parameters)) {
+    421|             return $this->parameters;
+    422|         }
+    423| 
+  > 424|         throw new LogicException('Route is not bound.');
+    425|     }
+    426| 
+    427|     /**
+    428|      * Get the key / value list of original parameters for the route.
+
+      [2m+2 vendor frames [22m
+  3   routes/web.php:22
+      Illuminate\Routing\Route::__get("mi")
+
+      [2m+4 vendor frames [22m
+  8   app/Providers/RouteServiceProvider.php:63
+      Illuminate\Routing\RouteRegistrar::group("/var/www/test-task-auth-k3/routes/web.php")
